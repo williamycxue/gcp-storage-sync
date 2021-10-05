@@ -1,6 +1,6 @@
 name: "GCP Storage Sync"
 description: "Sync a directory to an GCP Storage repository"
-author: weslenng
+author: omppye
 runs:
   using: docker
   image: Dockerfile

@@ -6,9 +6,9 @@ LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="blue"
 
 LABEL version="1.0.6"
-LABEL repository="https://github.com/weslenng/gcp-storage-sync"
-LABEL homepage="https://weslenng.dev/"
-LABEL maintainer="weslenng <weslenng@outlook.com>"
+LABEL repository="https://github.com/nglabo/gcp-storage-sync"
+LABEL homepage="https://omppye.dev/"
+LABEL maintainer="Weslen Guerreiro <omppye@gmail.com>"
 
 ADD entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]

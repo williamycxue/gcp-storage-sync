@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: weslenng/gcp-storage-sync@master
+      - uses: nglabo/gcp-storage-sync@master
         with:
           args: -d
         env:
