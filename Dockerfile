@@ -6,7 +6,7 @@ LABEL "com.github.actions.icon"="refresh-cw"
 LABEL "com.github.actions.color"="blue"
 
 LABEL version="1.0.6"
-LABEL repository="https://github.com/nglabo/gcp-storage-sync"
+LABEL repository="https://github.com/omppye-lab/gcp-storage-sync"
 LABEL homepage="https://omppye.dev/"
 LABEL maintainer="Weslen Guerreiro <omppye@gmail.com>"
 
