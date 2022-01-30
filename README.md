@@ -27,7 +27,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: omppye-lab/gcp-storage-sync@master
+      - uses: omppye-tech/gcp-storage-sync@master
         with:
           args: -d
         env:
