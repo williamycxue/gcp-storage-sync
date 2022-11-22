@@ -16,6 +16,7 @@ echo $GCP_SERVICE_ACCOUNT_KEY_FILE > json_file.json
 gcloud auth activate-service-account --key-file json_file.json
 
 echo "Before running gsutil"
+pwd gsutil
 sh -c "gsutil -D rsync $* -r ${SOURCE_DIR} gs://${GCP_STORAGE_BUCKET}/${DEST_DIR}"
 echo "Before running revoke"
 gcloud auth revoke --all
